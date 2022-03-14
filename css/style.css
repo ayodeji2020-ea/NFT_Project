@@ -1,0 +1,189 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+* {
+  color: inherit;
+  font-family: inherit;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: raleway, sans-serif;
+  background: #000;
+  color: #e5e5e5;
+}
+body.lock {
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+input,
+button {
+  outline: none;
+}
+button {
+  cursor: pointer;
+  border: none;
+}
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+main {
+  background-image: url(../media/bg.jpg);
+  min-height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+}
+@font-face {
+  font-family: blender pro;
+  src: url(../fonts/BlenderPro-Medium.eot);
+  src: local("Blender Pro Medium"), local("BlenderPro-Medium"),
+    url(../fonts/BlenderPro-Medium.eot?) format("embedded-opentype"),
+    url(../fonts/BlenderPro-Medium.woff2) format("woff2"),
+    url(../fonts/BlenderPro-Medium.woff) format("woff"),
+    url(../fonts/BlenderPro-Medium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: blender pro;
+  src: url(../fonts/BlenderPro-ThinItalic.eot);
+  src: local("Blender Pro Thin Italic"), local("BlenderPro-ThinItalic"),
+    url(../fonts/BlenderPro-ThinItalic.eot?) format("embedded-opentype"),
+    url(../fonts/BlenderPro-ThinItalic.woff2) format("woff2"),
+    url(../fonts/BlenderPro-ThinItalic.woff) format("woff"),
+    url(../fonts/BlenderPro-ThinItalic.ttf) format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: blender pro;
+  src: url(../fonts/BlenderPro-Heavy.eot);
+  src: local("Blender Pro Heavy"), local("BlenderPro-Heavy"),
+    url(../fonts/BlenderPro-Heavy.eot?) format("embedded-opentype"),
+    url(../fonts/BlenderPro-Heavy.woff2) format("woff2"),
+    url(../fonts/BlenderPro-Heavy.woff) format("woff"),
+    url(../fonts/BlenderPro-Heavy.ttf) format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: blender pro book;
+  src: url(../fonts/BlenderPro-BookItalic.eot);
+  src: local("Blender Pro Book Italic"), local("BlenderPro-BookItalic"),
+    url(../fonts/BlenderPro-BookItalic.eot?) format("embedded-opentype"),
+    url(../fonts/BlenderPro-BookItalic.woff2) format("woff2"),
+    url(../fonts/BlenderPro-BookItalic.woff) format("woff"),
+    url(../fonts/BlenderPro-BookItalic.ttf) format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: blender pro book;
+  src: url(../fonts/BlenderPro-Book.eot);
+  src: local("Blender Pro Book"), local("BlenderPro-Book"),
+    url(../fonts/BlenderPro-Book.eot?) format("embedded-opentype"),
+    url(../fonts/BlenderPro-Book.woff2) format("woff2"),
+    url(../fonts/BlenderPro-Book.woff) format("woff"),
+    url(../fonts/BlenderPro-Book.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: blender pro;
+  src: url(../fonts/BlenderPro-Bold.eot);
+  src: local("Blender Pro Bold"), local("BlenderPro-Bold"),
+    url(../fonts/BlenderPro-Bold.eot?) format("embedded-opentype"),
+    url(../fonts/BlenderPro-Bold.woff2) format("woff2"),
+    url(../fonts/BlenderPro-Bold.woff) format("woff"),
+    url(../fonts/BlenderPro-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: blender pro;
+  src: url(../fonts/BlenderPro-Thin.eot);
+  src: local("Blender Pro Thin"), local("BlenderPro-Thin"),
+    url(../fonts/BlenderPro-Thin.eot?) format("embedded-opentype"),
+    url(../fonts/BlenderPro-Thin.woff2) format("woff2"),
+    url(../fonts/BlenderPro-Thin.woff) format("woff"),
+    url(../fonts/BlenderPro-Thin.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: blender pro;
+  src: url(../fonts/BlenderPro-MediumItalic.eot);
+  src: local("Blender Pro Medium Italic"), local("BlenderPro-MediumItalic"),
+    url(../fonts/BlenderPro-MediumItalic.eot?) format("embedded-opentype"),
+    url(../fonts/BlenderPro-MediumItalic.woff2) format("woff2"),
+    url(../fonts/BlenderPro-MediumItalic.woff) format("woff"),
+    url(../fonts/BlenderPro-MediumItalic.ttf) format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: blender pro;
+  src: url(../fonts/BlenderPro-BoldItalic.eot);
+  src: local("Blender Pro Bold Italic"), local("BlenderPro-BoldItalic"),
+    url(../fonts/BlenderPro-BoldItalic.eot?) format("embedded-opentype"),
+    url(../fonts/BlenderPro-BoldItalic.woff2) format("woff2"),
+    url(../fonts/BlenderPro-BoldItalic.woff) format("woff"),
+    url(../fonts/BlenderPro-BoldItalic.ttf) format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+.main-flex {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 710px;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.slider {
+  max-width: 400px;
+  height: 100%;
+  pointer-events: none;
+  user-select: none;
+}
+.slider img {
+  width: 100%;
+  border: none !important;
+}
